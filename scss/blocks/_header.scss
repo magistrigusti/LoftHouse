@@ -4,6 +4,8 @@
   justify-content: space-between;
 
   min-height: 840px;
+  padding-top: 30px;
+  padding-bottom: 74px;
 
   background: 
     linear-gradient(180deg, 
@@ -17,5 +19,23 @@
 .header__top-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+.header__title {
+  position: relative;
+  padding-bottom: 121px;
+
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: $font-accent;
+  color: $accent;
+}
+
+.header__title-icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
