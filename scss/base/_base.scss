@@ -22,3 +22,21 @@ a {
   padding: 0 15px;
   width: 1140px;
 }
+
+.text-right {
+  text-align: right;
+}
+
+.visually-hidden {
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+
+  position: absolute;
+
+  clip: rect(1px 1px 1px 1px);
+  clip: react(1px 1px 1px 1px);
+  clip-path: inset(50%);
+
+  white-space: nowrap;
+}
