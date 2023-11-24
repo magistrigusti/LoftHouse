@@ -21,6 +21,10 @@ a {
   margin: 0 auto;
   padding: 0 15px;
   width: 1140px;
+
+  &--sm {
+    width: 840px;
+  }
 }
 
 .text-right {
@@ -39,4 +43,15 @@ a {
   clip-path: inset(50%);
 
   white-space: nowrap;
+}
+
+.none {
+  display: none !important;
+}
+
+.title-2 {
+  font-family: $font-accent;
+  font-size: 36px;
+  font-weight: 700;
+  color: $accent;
 }
