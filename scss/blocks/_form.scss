@@ -6,15 +6,21 @@
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
   color: $text;
+  transition: background-color 0.2s ease-in;
 
   &::placeholder {
     color: $placeholder;
   }
+
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
 }
 
-.font__privacy {
+.form__privacy {
   font-size: 13px;
-  font-weight: 400;
+  text-align: center;
+  line-height: 1.23;
   color: $mited;
 }
 
@@ -26,4 +32,8 @@
   font-weight: 700;
   text-align: center;
   background-color: $accent;
+
+  &:hover {
+    background-color: saturate($accent, 10%);
+  }
 }
